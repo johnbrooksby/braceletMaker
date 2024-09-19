@@ -2,9 +2,17 @@ import React from "react";
 
 const Header = () => {
     return (
-        <div>
-            Hello world!
-        </div>
+        <header>
+            <div className="welcome">
+            Welcome to
+            </div>
+            <div className = "title">
+            Bracelet Maker!
+            </div>
+            <div className = "subtitle">
+                Design your very own bracelets!
+            </div>
+        </header>
     )
 }
 
