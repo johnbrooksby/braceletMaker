@@ -4,6 +4,10 @@ import { useState } from 'react'
 import './App.css'
 import Header from "./Header.jsx"
 import Navbar from './Navbar.jsx'
+import Home from './Home1.jsx'
+import Mono from '../Monochrome.jsx'
+import Pastels from '../SoftPastels.jsx'
+import Minimalist from '../ModernMinimalist.jsx'
 
 function App() {
 
@@ -11,6 +15,10 @@ function App() {
     <div>
       <Header />
       <Navbar />
+      <Home />
+      <Mono />
+      <Pastels />
+      <Minimalist />
     </div>
   )
 }

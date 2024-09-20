@@ -1,42 +1,76 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.sample {
+  width: 100px;
+  height: 75px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sampleContainer {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  gap: 10px;
+  border-bottom: 1px solid darkblue;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 60s linear;
-  }
+.ivory {
+  background-color: #FFFFF0;
+  /* border: solid; */
 }
 
-.card {
-  padding: 2em;
+.taupe {
+  background-color: #D2B48C;
 }
 
-.read-the-docs {
-  color: #888;
+.charcoal {
+  background-color: #36454F;
+}
+
+.white {
+  background-color: #FFFFFF;
+  /* border: solid; */
+}
+
+.black {
+  background-color: #000000;
+  color: white;
+}
+
+.grey {
+  background-color: #b0b0b0;
+}
+
+.lightPink {
+  background-color: #FADADD;
+}
+
+.mintGreen {
+  background-color: #DFF2E1;
+}
+
+.lavender {
+  background-color: #E6E6FA;
+}
+
+/* . {
+  background-color: #;
+}
+
+. {
+  background-color: #;
+}
+
+. {
+  background-color: #;
+} */
+
+.navyBlue {
+  background-color: #001F3F;
+  color: white;
+}
+
+.lightGrey {
+  background-color: #F5F5F5;
 }
