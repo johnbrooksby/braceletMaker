@@ -1,17 +1,17 @@
 import React from "react";
 
-const Pastels = () => {
+const Warm = () => {
     return (
         <div className="sampleContainer">
-            <div className="centered sample">Soft Pastels -</div>
-            <div className="lightPink sample">Light Pink</div>
-            <div className="mintGreen sample">Mint Green</div>
-            <div className="lavender sample">Lavender</div>
+            <div className="centered sample">Warm and Inviting -</div>
+            <div className="cream sample">Cream</div>
+            <div className="beige sample">Warm Beige</div>
+            <div className="terracotta sample">Terracotta</div>
         </div>
     )
 }
 
-export default Pastels
+export default Warm
 
 
 // import React from "react";
