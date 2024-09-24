@@ -102,7 +102,40 @@
 
 .navy {
   background-color: #0D47A1;
+  color: white;
   }
+
+  .lightPurple {
+    background-color: #BEA6ff;
+  }
+
+  .citron {
+    background-color: #E6DE89;
+  }
+
+  .pumpkin {
+    background-color: #FE7520;
+  }
+
+.turquoise {
+  background-color: #55D6BE;
+}
+
+.charcoal {
+  background-color: #28536B;
+}
+
+.maize {
+  background-color: #FFED66;
+}
+
+.xanthous {
+  background-color: #FCBF49;
+}
+
+.bittersweet {
+  background-color: #FF5E5B;
+}
 
 /* . {
   background-color: #;

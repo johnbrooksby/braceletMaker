@@ -3,7 +3,7 @@ import React from "react";
 const Pastels = () => {
     return (
         <div className="sampleContainer">
-            <div className="centered sample">Soft Pastels -</div>
+            <div className="centered sample">Soft Pastels</div>
             <div className="lightPink sample">Light Pink</div>
             <div className="mintGreen sample">Mint Green</div>
             <div className="lavender sample">Lavender</div>

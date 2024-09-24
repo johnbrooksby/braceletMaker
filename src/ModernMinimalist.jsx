@@ -1,17 +1,17 @@
 import React from "react";
 
-const Mono = () => {
+const Minimalist = () => {
     return (
         <div className="sampleContainer">
-            <div className="centered sample">Monochrome -</div>
+            <div className="centered sample">Modern Minimalist</div>
             <div className="white sample">White</div>
-            <div className="black sample">Black</div>
-            <div className="grey sample">Grey</div>
+            <div className="lightGrey sample">Light Grey</div>
+            <div className="navyBlue sample">Navy Blue</div>
         </div>
     )
 }
 
-export default Mono
+export default Minimalist
 
 
 // import React from "react";
