@@ -2,9 +2,9 @@ import React from "react";
 
 const Custom2 = () => {
     return (
-        <div className="sampleContainer">Custom
-            <div className="centered sample"></div>
-            <div className="charcoal sample">Charcoal</div>
+        <div className="sampleContainer">
+            <div className="centered sample">Custom</div>
+            <div className="charcoal2 sample">Charcoal</div>
             <div className="turquoise sample">Turquoise</div>
             <div className="maize sample">Maize</div>
             <div className="xanthous sample">Xanthous</div>
