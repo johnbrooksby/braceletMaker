@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header />
       <Navbar />
-      <Sample />
+      {/* <Sample /> */}
     </div>
   )
 }
