@@ -4,8 +4,45 @@
   /* font-family: Arial, Helvetica, sans-serif; */
   box-sizing: border-box;
   overflow-x: hidden;
-  color: #1e2b3a;
+  color:#b0b0b0;
+  background-color: #333333;
 }
+
+header {
+  width: 100vw;
+  height:10vw;
+  /* display: flex; */
+  padding-top: 10px;
+}
+
+.pattaya-regular {
+  font-family: "Pattaya", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.welcome {
+  
+}
+
+.title {
+  font-size:35pt;
+  /* padding-left: 3em; */
+  /* width: 40%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subtitle {
+  /* width: 60%; */
+  font-size: 18pt;
+  display: flex;
+  align-items:start;
+  justify-content: center;
+  /* border:1px, solid,red; */
+}
+
+/* Sample Colors */
 
 .sample {
   width: 100px;
