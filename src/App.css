@@ -4,7 +4,7 @@
   /* font-family: Arial, Helvetica, sans-serif; */
   box-sizing: border-box;
   overflow-x: hidden;
-  color:#b0b0b0;
+  color:#f9f8e6;
   background-color: #333333;
 }
 
@@ -40,6 +40,29 @@ header {
   align-items:start;
   justify-content: center;
   /* border:1px, solid,red; */
+}
+
+.App {
+  display: flex;
+}
+
+.widgets {
+  width: 40vw;
+  height: auto;
+}
+
+.widget, .droppedWidget {
+  width:100px;
+  height: 20px;
+  background-color: grey;
+  margin: 5px;
+  color: black;
+}
+
+.page {
+  width: 200px;
+  height: 300px;
+  border: 1px, dotted, white;
 }
 
 /* Sample Colors */
