@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Navbar />
+      {/* <Navbar /> */}
       <Drag />
       {/* <Sample /> */}
     </div>

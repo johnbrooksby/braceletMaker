@@ -52,17 +52,27 @@ header {
 }
 
 .widget, .droppedWidget {
-  width:100px;
-  height: 20px;
-  background-color: grey;
-  margin: 5px;
-  color: black;
+  /* width:auto; */
+  /* height: auto; */
+  /* height: auto; */
+  /* background-color: grey; */
+  /* margin: 5px; */
+  /* color: black; */
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.bracelet {
+  min-width:300px;
 }
 
 .page {
-  width: 200px;
-  height: 300px;
-  border: 1px, dotted, white;
+  min-width: 30px;
+  min-height: 30px;
+  /* border: 1px, dotted, white; */
 }
 
 /* Sample Colors */
