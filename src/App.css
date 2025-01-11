@@ -6,6 +6,7 @@
   overflow-x: hidden;
   color:#f9f8e6;
   background-color: #333333;
+  
 }
 
 header {
@@ -13,9 +14,12 @@ header {
   height:10vw;
   /* display: flex; */
   padding-top: 10px;
+  /* background-color: rgba(50,50,50,0); */
+  /* background-color: rgba(255,0,0,.50); */
 }
 
 .pattaya-regular {
+  /* background-color: rgba(255,0,0,.50); */
   font-family: "Pattaya", serif;
   font-weight: 400;
   font-style: normal;
@@ -43,11 +47,23 @@ header {
 }
 
 .App {
+  min-height:200px;
+  /* display: flex; */
+}
+
+.beadPlacement {
   display: flex;
+  width: 25vw;
+  position: absolute;
+  left: 32vw;
+  top: 0px;
+  justify-content: space-between;
+  z-index: 3;
+  background-color: rgba(0,0,0,0);
 }
 
 .widgets {
-  width: 40vw;
+  /* width: 40vw; */
   height: auto;
 }
 
@@ -65,14 +81,37 @@ img {
   height: 30px;
 }
 
+.bead {
+  
+}
+
+.placement {
+  width:100vw;
+  min-height: 45px;
+  position:relative;
+  top: 100px;
+}
+
 .bracelet {
-  min-width:300px;
+  min-width:50vw;
+}
+
+.braceletPlacement {
+  width: 100vw;
+  height:auto;
+  /* display: flex; */
+  /* justify-content: center; */
+  position: absolute;
+  left: 25vw;
+  top: 0px;
+  z-index:2;
 }
 
 .page {
   min-width: 30px;
   min-height: 30px;
-  /* border: 1px, dotted, white; */
+  background-color: rgba(0,0,0,0);
+  border: 1px, dashed, white;
 }
 
 /* Sample Colors */
