@@ -57,20 +57,19 @@ const Drag = () => {
             </div>
             <div>
                 <img className="bracelet" src="/hemp.jpg" alt="hemp bracelet" />
-                <div className="page" onDrop={handleOnDrop} onDragOver={handleDragOver}>
+                <div className="page" onDrop={handleOnDrop} onDragOver={handleDragOver} onDoubleClick={() => setWidgets([])}>
                     {widgets.map((widget, i) => (
-                        // <div className="droppedWidget" key={i}>
-                        <img src={`/${widget}.jpg`} />
-                        // </div>
+                        <div className="droppedWidget" key={i}>
+                            <img src={`/${widget}.jpg`} />
+                        </div>
                     ))}
                     {/* <div className="droppedWidget">
                         {widgets}
                         </div> */}
                 </div>
-                <div className="page" onDrop={handleOnDrop2} onDragOver={handleDragOver}>
+                <div className="page" onDrop={handleOnDrop2} onDragOver={handleDragOver} onDoubleClick={() => setWidgets2([])}>
                     {widgets2.map((widget, i) => (
                         <div className="droppedWidget" key={i}>
-                            {/* {widget} */}
                             <img src={`/${widget}.jpg`} />
                         </div>
                     ))}
