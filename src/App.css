@@ -81,8 +81,8 @@ img {
   height: 30px;
 }
 
-.bead {
-  
+.bead:hover {
+  cursor: pointer;  
 }
 
 .placement {
@@ -111,7 +111,7 @@ img {
   min-width: 30px;
   min-height: 30px;
   background-color: rgba(0,0,0,0);
-  border: 1px, dashed, white;
+  /* border: 1px, dashed, white; */
 }
 
 /* Sample Colors */
