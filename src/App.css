@@ -67,11 +67,11 @@ header {
   height: auto;
 }
 
-.widget, .droppedWidget {
+.droppedWidget {
   /* width:auto; */
   /* height: auto; */
   /* height: auto; */
-  /* background-color: grey; */
+  background-color: rgba(0,0,0,0);
   /* margin: 5px; */
   /* color: black; */
 }
@@ -79,6 +79,7 @@ header {
 img {
   width: 30px;
   height: 30px;
+  border-radius: 15px;
 }
 
 .bead:hover {
@@ -94,6 +95,7 @@ img {
 
 .bracelet {
   min-width:50vw;
+  border-radius: 0px;
 }
 
 .braceletPlacement {
@@ -110,6 +112,7 @@ img {
 .page {
   min-width: 30px;
   min-height: 30px;
+  border-radius: 15px;
   background-color: rgba(0,0,0,0);
   /* border: 1px, dashed, white; */
 }
